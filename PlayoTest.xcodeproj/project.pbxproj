@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DACA1F726F5F30A001D5131 /* PlayoTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA1F626F5F30A001D5131 /* PlayoTestApp.swift */; };
+		8DACA1F926F5F30A001D5131 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA1F826F5F30A001D5131 /* DashboardView.swift */; };
+		8DACA1FB26F5F30E001D5131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DACA1FA26F5F30E001D5131 /* Assets.xcassets */; };
+		8DACA1FE26F5F30E001D5131 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DACA1FD26F5F30E001D5131 /* Preview Assets.xcassets */; };
+		8DACA20726F61D8E001D5131 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA20626F61D8E001D5131 /* News.swift */; };
+		8DACA20A26F61DCC001D5131 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA20926F61DCC001D5131 /* SearchBarView.swift */; };
+		8DACA20E26F61E12001D5131 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA20D26F61E12001D5131 /* NewsListView.swift */; };
+		8DACA21026F61FEE001D5131 /* PTDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA20F26F61FEE001D5131 /* PTDataFetcher.swift */; };
+		8DACA21226F64ACD001D5131 /* PTConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21126F64ACD001D5131 /* PTConstant.swift */; };
+		8DACA21526F66B1C001D5131 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */; };
+		8DACA21826F66D6B001D5131 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21726F66D6B001D5131 /* CategoryView.swift */; };
+		EA947E7CD073BA672663D12D /* Pods_PlayoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F18CD126DFB0213E560FBF3 /* Pods_PlayoTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B50BF9137E63EB992E58180 /* Pods-PlayoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest.debug.xcconfig"; path = "Target Support Files/Pods-PlayoTest/Pods-PlayoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		6F18CD126DFB0213E560FBF3 /* Pods_PlayoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DACA1F326F5F30A001D5131 /* PlayoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DACA1F626F5F30A001D5131 /* PlayoTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayoTestApp.swift; sourceTree = "<group>"; };
+		8DACA1F826F5F30A001D5131 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8DACA1FA26F5F30E001D5131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DACA1FD26F5F30E001D5131 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DACA1FF26F5F30E001D5131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DACA20626F61D8E001D5131 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		8DACA20926F61DCC001D5131 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		8DACA20D26F61E12001D5131 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		8DACA20F26F61FEE001D5131 /* PTDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTDataFetcher.swift; sourceTree = "<group>"; };
+		8DACA21126F64ACD001D5131 /* PTConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTConstant.swift; sourceTree = "<group>"; };
+		8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		8DACA21726F66D6B001D5131 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		9A8BF5D66F0F88A9A26377CA /* Pods-PlayoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest.release.xcconfig"; path = "Target Support Files/Pods-PlayoTest/Pods-PlayoTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DACA1F026F5F30A001D5131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA947E7CD073BA672663D12D /* Pods_PlayoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119EAF8B4D2A46305701636B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F18CD126DFB0213E560FBF3 /* Pods_PlayoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DACA1EA26F5F30A001D5131 = {
+			isa = PBXGroup;
+			children = (
+				8DACA1F526F5F30A001D5131 /* PlayoTest */,
+				8DACA1F426F5F30A001D5131 /* Products */,
+				E1B8767722B4DD53749DB9FA /* Pods */,
+				119EAF8B4D2A46305701636B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8DACA1F426F5F30A001D5131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA1F326F5F30A001D5131 /* PlayoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DACA1F526F5F30A001D5131 /* PlayoTest */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA21926F6730D001D5131 /* Core */,
+				8DACA20526F61D7F001D5131 /* Model */,
+				8DACA20826F61DB9001D5131 /* View */,
+				8DACA21626F66B24001D5131 /* Presenter */,
+				8DACA21326F64B43001D5131 /* Resource */,
+				8DACA1FC26F5F30E001D5131 /* Preview Content */,
+			);
+			path = PlayoTest;
+			sourceTree = "<group>";
+		};
+		8DACA1FC26F5F30E001D5131 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA1FD26F5F30E001D5131 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DACA20526F61D7F001D5131 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA20626F61D8E001D5131 /* News.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DACA20826F61DB9001D5131 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA1F826F5F30A001D5131 /* DashboardView.swift */,
+				8DACA20926F61DCC001D5131 /* SearchBarView.swift */,
+				8DACA21726F66D6B001D5131 /* CategoryView.swift */,
+				8DACA20D26F61E12001D5131 /* NewsListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DACA21326F64B43001D5131 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA1FA26F5F30E001D5131 /* Assets.xcassets */,
+				8DACA1FF26F5F30E001D5131 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8DACA21626F66B24001D5131 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8DACA21926F6730D001D5131 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA1F626F5F30A001D5131 /* PlayoTestApp.swift */,
+				8DACA20F26F61FEE001D5131 /* PTDataFetcher.swift */,
+				8DACA21126F64ACD001D5131 /* PTConstant.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E1B8767722B4DD53749DB9FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B50BF9137E63EB992E58180 /* Pods-PlayoTest.debug.xcconfig */,
+				9A8BF5D66F0F88A9A26377CA /* Pods-PlayoTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DACA1F226F5F30A001D5131 /* PlayoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DACA20226F5F30E001D5131 /* Build configuration list for PBXNativeTarget "PlayoTest" */;
+			buildPhases = (
+				F41B1FAD8E3563C4541B4327 /* [CP] Check Pods Manifest.lock */,
+				8DACA1EF26F5F30A001D5131 /* Sources */,
+				8DACA1F026F5F30A001D5131 /* Frameworks */,
+				8DACA1F126F5F30A001D5131 /* Resources */,
+				B28786C7BF7D38D91468E76B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayoTest;
+			productName = PlayoTest;
+			productReference = 8DACA1F326F5F30A001D5131 /* PlayoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DACA1EB26F5F30A001D5131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8DACA1F226F5F30A001D5131 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8DACA1EE26F5F30A001D5131 /* Build configuration list for PBXProject "PlayoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DACA1EA26F5F30A001D5131;
+			productRefGroup = 8DACA1F426F5F30A001D5131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DACA1F226F5F30A001D5131 /* PlayoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DACA1F126F5F30A001D5131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DACA1FE26F5F30E001D5131 /* Preview Assets.xcassets in Resources */,
+				8DACA1FB26F5F30E001D5131 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B28786C7BF7D38D91468E76B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTest/Pods-PlayoTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTest/Pods-PlayoTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoTest/Pods-PlayoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F41B1FAD8E3563C4541B4327 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DACA1EF26F5F30A001D5131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DACA20A26F61DCC001D5131 /* SearchBarView.swift in Sources */,
+				8DACA20E26F61E12001D5131 /* NewsListView.swift in Sources */,
+				8DACA21026F61FEE001D5131 /* PTDataFetcher.swift in Sources */,
+				8DACA21526F66B1C001D5131 /* DashboardPresenter.swift in Sources */,
+				8DACA21226F64ACD001D5131 /* PTConstant.swift in Sources */,
+				8DACA20726F61D8E001D5131 /* News.swift in Sources */,
+				8DACA1F926F5F30A001D5131 /* DashboardView.swift in Sources */,
+				8DACA1F726F5F30A001D5131 /* PlayoTestApp.swift in Sources */,
+				8DACA21826F66D6B001D5131 /* CategoryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8DACA20026F5F30E001D5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DACA20126F5F30E001D5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DACA20326F5F30E001D5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B50BF9137E63EB992E58180 /* Pods-PlayoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayoTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayoTest/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DACA20426F5F30E001D5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A8BF5D66F0F88A9A26377CA /* Pods-PlayoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PlayoTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PlayoTest/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DACA1EE26F5F30A001D5131 /* Build configuration list for PBXProject "PlayoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DACA20026F5F30E001D5131 /* Debug */,
+				8DACA20126F5F30E001D5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DACA20226F5F30E001D5131 /* Build configuration list for PBXNativeTarget "PlayoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DACA20326F5F30E001D5131 /* Debug */,
+				8DACA20426F5F30E001D5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DACA1EB26F5F30A001D5131 /* Project object */;
+}
