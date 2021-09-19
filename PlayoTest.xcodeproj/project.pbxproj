@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425282C37720ED922B411CE1 /* Pods_PlayoTest_PlayoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC82DAD2569322DE20AD869A /* Pods_PlayoTest_PlayoTestTests.framework */; };
 		8DACA1F726F5F30A001D5131 /* PlayoTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA1F626F5F30A001D5131 /* PlayoTestApp.swift */; };
 		8DACA1F926F5F30A001D5131 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA1F826F5F30A001D5131 /* DashboardView.swift */; };
 		8DACA1FB26F5F30E001D5131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DACA1FA26F5F30E001D5131 /* Assets.xcassets */; };
@@ -18,8 +19,23 @@
 		8DACA21226F64ACD001D5131 /* PTConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21126F64ACD001D5131 /* PTConstant.swift */; };
 		8DACA21526F66B1C001D5131 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */; };
 		8DACA21826F66D6B001D5131 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA21726F66D6B001D5131 /* CategoryView.swift */; };
+		8DACA26026F70E52001D5131 /* DashboardViewSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA25F26F70E52001D5131 /* DashboardViewSpec.swift */; };
+		8DACA26226F71441001D5131 /* DashboardPresenterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA26126F71441001D5131 /* DashboardPresenterType.swift */; };
+		8DACA26426F714C1001D5131 /* DashboardPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA26326F714C1001D5131 /* DashboardPresenterMock.swift */; };
+		8DACA26626F7167C001D5131 /* PTDataFetcherMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA26526F7167C001D5131 /* PTDataFetcherMock.swift */; };
+		8DACA26926F716D9001D5131 /* DashboardPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACA26826F716D9001D5131 /* DashboardPresenterSpec.swift */; };
 		EA947E7CD073BA672663D12D /* Pods_PlayoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F18CD126DFB0213E560FBF3 /* Pods_PlayoTest.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DACA25A26F70C91001D5131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DACA1EB26F5F30A001D5131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DACA1F226F5F30A001D5131;
+			remoteInfo = PlayoTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B50BF9137E63EB992E58180 /* Pods-PlayoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest.debug.xcconfig"; path = "Target Support Files/Pods-PlayoTest/Pods-PlayoTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -37,7 +53,17 @@
 		8DACA21126F64ACD001D5131 /* PTConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTConstant.swift; sourceTree = "<group>"; };
 		8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
 		8DACA21726F66D6B001D5131 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		8DACA25526F70C91001D5131 /* PlayoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DACA25926F70C91001D5131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DACA25F26F70E52001D5131 /* DashboardViewSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewSpec.swift; sourceTree = "<group>"; };
+		8DACA26126F71441001D5131 /* DashboardPresenterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenterType.swift; sourceTree = "<group>"; };
+		8DACA26326F714C1001D5131 /* DashboardPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenterMock.swift; sourceTree = "<group>"; };
+		8DACA26526F7167C001D5131 /* PTDataFetcherMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTDataFetcherMock.swift; sourceTree = "<group>"; };
+		8DACA26826F716D9001D5131 /* DashboardPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenterSpec.swift; sourceTree = "<group>"; };
+		9891FB7FC26DE1C4A8848D18 /* Pods-PlayoTest-PlayoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest-PlayoTestTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayoTest-PlayoTestTests/Pods-PlayoTest-PlayoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A8BF5D66F0F88A9A26377CA /* Pods-PlayoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest.release.xcconfig"; path = "Target Support Files/Pods-PlayoTest/Pods-PlayoTest.release.xcconfig"; sourceTree = "<group>"; };
+		B418D1DA0CF30E21C03D5C66 /* Pods-PlayoTest-PlayoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayoTest-PlayoTestTests.release.xcconfig"; path = "Target Support Files/Pods-PlayoTest-PlayoTestTests/Pods-PlayoTest-PlayoTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC82DAD2569322DE20AD869A /* Pods_PlayoTest_PlayoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayoTest_PlayoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +75,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DACA25226F70C91001D5131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425282C37720ED922B411CE1 /* Pods_PlayoTest_PlayoTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6F18CD126DFB0213E560FBF3 /* Pods_PlayoTest.framework */,
+				CC82DAD2569322DE20AD869A /* Pods_PlayoTest_PlayoTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				8DACA1F526F5F30A001D5131 /* PlayoTest */,
+				8DACA25626F70C91001D5131 /* PlayoTestTests */,
 				8DACA1F426F5F30A001D5131 /* Products */,
 				E1B8767722B4DD53749DB9FA /* Pods */,
 				119EAF8B4D2A46305701636B /* Frameworks */,
@@ -74,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				8DACA1F326F5F30A001D5131 /* PlayoTest.app */,
+				8DACA25526F70C91001D5131 /* PlayoTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +167,7 @@
 		8DACA21626F66B24001D5131 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				8DACA26126F71441001D5131 /* DashboardPresenterType.swift */,
 				8DACA21426F66B1C001D5131 /* DashboardPresenter.swift */,
 			);
 			path = Presenter;
@@ -145,11 +183,33 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		8DACA25626F70C91001D5131 /* PlayoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA26726F716BE001D5131 /* Mock */,
+				8DACA25F26F70E52001D5131 /* DashboardViewSpec.swift */,
+				8DACA26826F716D9001D5131 /* DashboardPresenterSpec.swift */,
+				8DACA25926F70C91001D5131 /* Info.plist */,
+			);
+			path = PlayoTestTests;
+			sourceTree = "<group>";
+		};
+		8DACA26726F716BE001D5131 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				8DACA26526F7167C001D5131 /* PTDataFetcherMock.swift */,
+				8DACA26326F714C1001D5131 /* DashboardPresenterMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
 		E1B8767722B4DD53749DB9FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				3B50BF9137E63EB992E58180 /* Pods-PlayoTest.debug.xcconfig */,
 				9A8BF5D66F0F88A9A26377CA /* Pods-PlayoTest.release.xcconfig */,
+				9891FB7FC26DE1C4A8848D18 /* Pods-PlayoTest-PlayoTestTests.debug.xcconfig */,
+				B418D1DA0CF30E21C03D5C66 /* Pods-PlayoTest-PlayoTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -176,6 +236,26 @@
 			productReference = 8DACA1F326F5F30A001D5131 /* PlayoTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8DACA25426F70C91001D5131 /* PlayoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DACA25C26F70C91001D5131 /* Build configuration list for PBXNativeTarget "PlayoTestTests" */;
+			buildPhases = (
+				B8E595DFB86C6C2C406FD8AA /* [CP] Check Pods Manifest.lock */,
+				8DACA25126F70C91001D5131 /* Sources */,
+				8DACA25226F70C91001D5131 /* Frameworks */,
+				8DACA25326F70C91001D5131 /* Resources */,
+				0667A331379DFFC4312CFF4A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DACA25B26F70C91001D5131 /* PBXTargetDependency */,
+			);
+			name = PlayoTestTests;
+			productName = PlayoTestTests;
+			productReference = 8DACA25526F70C91001D5131 /* PlayoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -187,6 +267,10 @@
 				TargetAttributes = {
 					8DACA1F226F5F30A001D5131 = {
 						CreatedOnToolsVersion = 12.5;
+					};
+					8DACA25426F70C91001D5131 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 8DACA1F226F5F30A001D5131;
 					};
 				};
 			};
@@ -204,6 +288,7 @@
 			projectRoot = "";
 			targets = (
 				8DACA1F226F5F30A001D5131 /* PlayoTest */,
+				8DACA25426F70C91001D5131 /* PlayoTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,9 +303,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8DACA25326F70C91001D5131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0667A331379DFFC4312CFF4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTest-PlayoTestTests/Pods-PlayoTest-PlayoTestTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayoTest-PlayoTestTests/Pods-PlayoTest-PlayoTestTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoTest-PlayoTestTests/Pods-PlayoTest-PlayoTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B28786C7BF7D38D91468E76B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +345,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayoTest/Pods-PlayoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8E595DFB86C6C2C406FD8AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayoTest-PlayoTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F41B1FAD8E3563C4541B4327 /* [CP] Check Pods Manifest.lock */ = {
@@ -276,10 +407,30 @@
 				8DACA1F926F5F30A001D5131 /* DashboardView.swift in Sources */,
 				8DACA1F726F5F30A001D5131 /* PlayoTestApp.swift in Sources */,
 				8DACA21826F66D6B001D5131 /* CategoryView.swift in Sources */,
+				8DACA26226F71441001D5131 /* DashboardPresenterType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DACA25126F70C91001D5131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DACA26626F7167C001D5131 /* PTDataFetcherMock.swift in Sources */,
+				8DACA26026F70E52001D5131 /* DashboardViewSpec.swift in Sources */,
+				8DACA26926F716D9001D5131 /* DashboardPresenterSpec.swift in Sources */,
+				8DACA26426F714C1001D5131 /* DashboardPresenterMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DACA25B26F70C91001D5131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DACA1F226F5F30A001D5131 /* PlayoTest */;
+			targetProxy = 8DACA25A26F70C91001D5131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8DACA20026F5F30E001D5131 /* Debug */ = {
@@ -404,8 +555,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayoTest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PlayoTest/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -415,6 +567,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,8 +579,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"PlayoTest/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PlayoTest/Resource/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -437,8 +591,55 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DACA25D26F70C91001D5131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9891FB7FC26DE1C4A8848D18 /* Pods-PlayoTest-PlayoTestTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PlayoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayoTest.app/PlayoTest";
+			};
+			name = Debug;
+		};
+		8DACA25E26F70C91001D5131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B418D1DA0CF30E21C03D5C66 /* Pods-PlayoTest-PlayoTestTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PlayoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.PlayoTest.PlayoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayoTest.app/PlayoTest";
 			};
 			name = Release;
 		};
@@ -459,6 +660,15 @@
 			buildConfigurations = (
 				8DACA20326F5F30E001D5131 /* Debug */,
 				8DACA20426F5F30E001D5131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DACA25C26F70C91001D5131 /* Build configuration list for PBXNativeTarget "PlayoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DACA25D26F70C91001D5131 /* Debug */,
+				8DACA25E26F70C91001D5131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

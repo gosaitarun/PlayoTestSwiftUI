@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DashboardView: View {
 
-    var presenter = DashboardPresenter()
+    var presenter: DashboardPresenterType = DashboardPresenter()
 
     @State private var arrayNews = [News]()
     @State private var isDataLoading = false

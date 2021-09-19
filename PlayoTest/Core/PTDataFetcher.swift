@@ -7,10 +7,14 @@
 
 import Alamofire
 
-class PTDataFetcher {
-    
-    typealias ServiceResponse = ([String:Any]?, Error?) -> Void
-    
+typealias ServiceResponse = ([String:Any]?, Error?) -> Void
+
+protocol PTDataFetcherType {
+    func webserviceCall(url: String, completion: @escaping ServiceResponse)
+}
+
+class PTDataFetcher: PTDataFetcherType {
+
     func webserviceCall(url: String, completion: @escaping ServiceResponse) {
         let request = AF.request(url)
         request.responseJSON { response in

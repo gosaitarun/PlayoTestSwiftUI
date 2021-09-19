@@ -2,9 +2,11 @@
 # platform :ios, '9.0'
 
 target 'PlayoTest' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
   pod 'Alamofire'
-
+  
+  target 'PlayoTestTests' do
+    pod 'ViewInspector'
+  end
 end

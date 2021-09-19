@@ -7,9 +7,9 @@
 
 import Foundation
 
-class DashboardPresenter {
+class DashboardPresenter: DashboardPresenterType {
 
-    let dataFetcher = PTDataFetcher()
+    var dataFetcher: PTDataFetcherType = PTDataFetcher()
 
     func fetchNews(_ category: String, completion: @escaping ([News]) -> Void) {
         dataFetcher.webserviceCall(url: PTConstant.mainURL+category.lowercased()) { data, error in
